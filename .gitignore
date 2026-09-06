@@ -1,0 +1,54 @@
+# Drakens Library - .gitignore
+
+# Archivos del sistema
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# IDEs
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.project
+.classpath
+.c9/
+
+# Logs
+*.log
+logs/
+
+# Compilados
+*.class
+*.pyc
+__pycache__/
+*.so
+.Python
+
+# Directorios de dependencias
+node_modules/
+venv/
+env/
+.env
+
+# Archivos temporales
+*.tmp
+*.temp
+*.bak
+
+# Compilados de Python
+dist/
+build/
+*.egg-info/
+
+# NO ignorar:
+# - PDFs de libros (books/)
+# - Portadas (covers/)
+# - Retratos de autores (authors/)
+# - catalog.json
+# - author.json
